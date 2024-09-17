@@ -1,9 +1,12 @@
 import "./App.css";
-
+import { motion } from "framer-motion";
+import Clubciencias from "./componentes/CLubciencias";
 function App() {
     return (
-        <div className="App">
-            <h1 className="text-6xl">club ciencias</h1>
+        <div className="h-screen w-full bg-black">
+            <header>
+                <Clubciencias></Clubciencias>
+            </header>
         </div>
     );
 }
