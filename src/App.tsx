@@ -1,9 +1,10 @@
 import "./App.css";
+import HeroParallax from "./components/hero-parallax/hero-parallax";
 
 function App() {
     return (
-        <div className="App">
-            <h1 className="text-6xl">club ciencias</h1>
+        <div>
+            <HeroParallax></HeroParallax>
         </div>
     );
 }
